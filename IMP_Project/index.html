@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        const printMenu = (day) => {
+            switch (day.toLowerCase()) {
+                case 'monday':
+                    return "Spaghetti Bolognese";
+                case 'tuesday':
+                    return "Grilled Salmon";
+                case 'wednesday':
+                    return "Chicken Stir Fry";
+                case 'thursday':
+                    return "Vegetarian Pizza";
+                case 'friday':
+                    return "Beef Tacos";
+                case 'saturday':
+                    return "BBQ Ribs";
+                case 'sunday':
+                    return "Pasta Primavera";
+                default:
+                    return "Invalid day";
+            }
+        };
+        
+        
+        console.log(printMenu('monday'));    
+        console.log(printMenu('saturday'));  
+        console.log(printMenu('friday'));    
+        console.log(printMenu('xyz'));       
+        
+        </script>
+        
+</body>
+</html>
